@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
 for b in {40..47}; do
     printf "\e[%dm  " $b
@@ -16,4 +16,3 @@ for b in 49 {40..47} {100..107}; do
     done
     printf "\e[0m\n"
 done
-
